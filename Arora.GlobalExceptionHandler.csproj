@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>Arora.GlobalExceptionHandler</Title>
+    <Authors>LordArora</Authors>
+    <Company>ElitesXTech</Company>
+    <Description>`Arora.GlobalExceptionHandler` is an open-source .NET 8+ class library that provides global exception handling middleware for minimal APIs. It allows you to catch unhandled exceptions across your application in a single `try-catch` block, making error handling simpler and more consistent.</Description>
+    <Copyright>Sharaf Mansour</Copyright>
+    <PackageProjectUrl>https://github.com/Sharaf-Mansour/Arora.GlobalExceptionHandler</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Sharaf-Mansour/Arora.GlobalExceptionHandler</RepositoryUrl>
+    <PackageTags>.NET 8, Global Exception Handling, Middleware, Error Handling, Minimal API, Open Source, ASP.NET Core, Web Application, Exception Catching, JSON Response, API Error Handling, C#, .NET Library</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Arora.GlobalExceptionHandler\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Arora.GlobalExceptionHandler\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
